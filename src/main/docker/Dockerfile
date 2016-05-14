@@ -1,4 +1,4 @@
-FROM java:8-jre
+FROM java:8-jre-alpine
 VOLUME /tmp
 ADD app.jar app.jar
 RUN bash -c 'touch /app.jar'
