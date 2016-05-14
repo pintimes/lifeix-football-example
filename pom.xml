@@ -8,7 +8,7 @@
 	<!-- 继承Lifeix-football -->
 	<parent>
 		<groupId>com.lifeix</groupId>
-		<artifactId>lifeix-football</artifactId>
+		<artifactId>lifeix-football-temp</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
@@ -30,16 +30,4 @@
 		</dependency>
 	</dependencies>
 
-	<build>
-		<plugins>
-			<!-- Package as an executable jar -->
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-				<configuration>
-					<fork>true</fork>
-				</configuration>
-			</plugin>
-		</plugins>
-	</build>
 </project>
